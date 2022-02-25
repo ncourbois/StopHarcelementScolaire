@@ -1,13 +1,32 @@
+
+.container  {
+  background: lightskyblue;
+  
+}
+
 .logo {
   width: 150px;
   height: 150px;
   border-radius: 50%;
 }
 
-footer {
+footer  {
 text-align: center;
 }
 
-body {
-  background: lightskyblue;
+.title {
+  text-align: center;
+}
+
+.screen {
+  border-radius: 5px 5px 5px 5px;
+  width: 600px;
+  height: 600px;
+  display: block;
+  margin: auto;
+}
+
+.navbar {
+  display: inline-block;
+  justify-content: space-around;
 }
