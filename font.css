@@ -3,3 +3,11 @@
   height: 150px;
   border-radius: 50%;
 }
+
+footer {
+text-align: center;
+}
+
+body {
+  background: lightskyblue;
+}
