@@ -1,28 +1,3 @@
-@font-face {
-  font-family: 'lusitanaregular';
-  src: url('font\lusitana\lusitana-regular-webfont.woff2') format('woff2'),
-       url('font\lusitana\lusitana-regular-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  
-  font-family: 'gudearegular';
-  src: url('font\gudea\gudea-regular-webfont.woff2') format('woff2'),
-       url('font\gudea\gudea-regular-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'marck_scriptregular';
-  src: url('font\marck script\marckscript-regular-webfont.woff2') format('woff2'),
-        url('font\marck script\marckscript-regular-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
 
 .rounded {
   border: 1px solid rgb(49, 101, 245);
@@ -42,14 +17,12 @@ main {
 
 
 .title {
-  font-family:'lusitanaregular';
   padding: 20px;
   text-align: center;
   color:rgb(49, 101, 245);
 }
 
 p {
-  font-family:'marck_scriptregular';
   font-size: 1.5em;
 }
 
