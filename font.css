@@ -26,6 +26,9 @@ p {
   font-size: 1em;
 }
 
+.intro {
+  font-size: 2em;
+}
 .screen {
   border-radius: 5px 5px 5px 5px;
   width: 600px;
