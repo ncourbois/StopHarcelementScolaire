@@ -1,10 +1,39 @@
+@font-face {
+  font-family: 'lusitanaregular';
+  src: url('font\lusitana\lusitana-regular-webfont.woff2') format('woff2'),
+       url('font\lusitana\lusitana-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  
+  font-family: 'gudearegular';
+  src: url('font\gudea\gudea-regular-webfont.woff2') format('woff2'),
+       url('font\gudea\gudea-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'marck_scriptregular';
+  src: url('font\marck script\marckscript-regular-webfont.woff2') format('woff2'),
+        url('font\marck script\marckscript-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 .rounded {
   border: 1px solid rgb(49, 101, 245);
   border-radius: 5px 5px 5px 5px;
   padding: 10px;
-  margin: 2px;
+  margin: 4px;
 }
-
+main {
+  background: lightgray;
+  height: 100%;
+}
 .logo {
   width: 150px;
   height: 150px;
@@ -13,9 +42,15 @@
 
 
 .title {
-  text-align: center;
-  text-decoration: underline;
+  font-family:'lusitanaregular';
   padding: 20px;
+  text-align: center;
+  color:rgb(49, 101, 245);
+}
+
+p {
+  font-family:'marck_scriptregular';
+  font-size: 1.5em;
 }
 
 .screen {
@@ -24,14 +59,37 @@
   height: 600px;
   display: block;
   margin: auto;
+  padding: auto;
 }
 
 footer  {
   text-align: center;
+  background: rgb(49, 101, 245);
   }
   
-#event {
+.event {
   float: left;
   margin: 0 15px 0 0;
+}
+
+.box1 {
+  padding: 50px;
+}
+
+.box2 {
+  padding: 30px;
+}
+
+@media screen and (max-width:720px) and (orientation: portrait) {
+  .event {
+    display:none;
+  }
+  .screen {
+    border-radius: 5px 5px 5px 5px;
+    width: 50%;
+    height:50%;
+    display: block;
+    margin: auto;
+  }
 }
 
