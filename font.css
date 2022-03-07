@@ -2,18 +2,16 @@
 .rounded {
   border: 1px solid rgb(49, 101, 245);
   border-radius: 5px 5px 5px 5px;
-  padding: 10px;
-  margin: 4px;
+  padding: 15px;
+  margin: 5px;
 }
-main {
-  background: lightgray;
-  height: 100%;
-}
+
 .logo {
   width: 150px;
   height: 150px;
   border-radius: 50%;
 }
+
 
 
 .title {
@@ -24,8 +22,7 @@ main {
 
 .screen {
   border-radius: 5px 5px 5px 5px;
-  width: 600px;
-  height: 600px;
+  width: 60%;
   display: block;
   margin: auto;
   padding: auto;
@@ -34,6 +31,7 @@ main {
 footer  {
   text-align: center;
   background: rgb(49, 101, 245);
+  color: white;
   }
   
 .event {
@@ -42,23 +40,24 @@ footer  {
 }
 
 .box1 {
-  padding: 50px;
+  padding: 30px;
 }
 
 .box2 {
-  padding: 30px;
+  padding: 40px;
 }
 
 @media screen and (max-width:720px) and (orientation: portrait) {
   .event {
     display:none;
   }
+
   .screen {
-    border-radius: 5px 5px 5px 5px;
-    width: 50%;
-    height:50%;
-    display: block;
-    margin: auto;
-  }
+  border-radius: 5px 5px 5px 5px;
+  width: 60%;
+  display: block;
+  margin: auto;
+  padding: auto;
 }
+  }
 
