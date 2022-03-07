@@ -7,25 +7,29 @@
 }
 
 .logo {
-  width: 150px;
-  height: 150px;
+  width: 75px;
+  height:75px;
   border-radius: 50%;
 }
 
-
-
+main{
+  padding-top:150px;
+}
 .title {
-  padding: 20px;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   color:rgb(49, 101, 245);
+  padding-bottom: 25px;
 }
 
 .screen {
   border-radius: 5px 5px 5px 5px;
-  width: 60%;
+  width: 500px;
+  height: 450px;
   display: block;
   margin: auto;
-  padding: auto;
+ 
 }
 
 footer  {
@@ -47,17 +51,18 @@ footer  {
   padding: 40px;
 }
 
+
 @media screen and (max-width:720px) and (orientation: portrait) {
   .event {
     display:none;
   }
-
   .screen {
   border-radius: 5px 5px 5px 5px;
-  width: 60%;
+  width: 400px;
+  height: 450px;
   display: block;
   margin: auto;
   padding: auto;
 }
-  }
+}
 
